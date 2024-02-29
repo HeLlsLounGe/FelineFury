@@ -9,14 +9,29 @@ public class PlayerControl : MonoBehaviour
     [SerializeField] float moveSpeed = .1f;
     int currentScene = 0;
     bool isAlive = true;
+    float speed = 0;
+    private Vector3 lastPos;
+
     void Update()
     {
         mousePosition = Input.mousePosition;
         mousePosition = Camera.main.ScreenToWorldPoint(mousePosition);
-        transform.position = Vector2.Lerp(transform.position, mousePosition, moveSpeed);
+        Vector3 MousePos = mousePosition;
+        Vector3 MoveDirection = MousePos - transform.position;
+        GetComponent<Rigidbody2D>().velocity = MoveDirection * moveSpeed;
+        lastPos = transform.position;
+        speed = Vector3.Distance(transform.position, lastPos) / Time.deltaTime;
         if (!isAlive)
         {
-            SceneManager.LoadScene(currentScene);
+            FindObjectOfType<GameManager>().Dead();
+        }
+    }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.tag == "Hit")
+        {
+            isAlive = false;
         }
     }
 }

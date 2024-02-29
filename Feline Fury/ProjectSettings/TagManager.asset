@@ -3,7 +3,8 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Hit
   layers:
   - Default
   - TransparentFX
@@ -40,4 +41,19 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Bg
+    uniqueID: 4133259297
+    locked: 0
+  - name: Ground
+    uniqueID: 3971720985
+    locked: 0
+  - name: Player
+    uniqueID: 3978323281
+    locked: 0
+  - name: Obstacles
+    uniqueID: 4131929437
+    locked: 0
+  - name: UI
+    uniqueID: 2268596551
     locked: 0
