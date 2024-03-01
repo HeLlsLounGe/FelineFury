@@ -32,6 +32,10 @@ public class PlayerControl : MonoBehaviour
         if (collision.gameObject.tag == "Hit")
         {
             isAlive = false;
+        }else if (collision.gameObject.tag == "Exit")
+        {
+            FindObjectOfType<GameManager>().NxtLvl();
+            Debug.Log("exit");
         }
     }
 }
