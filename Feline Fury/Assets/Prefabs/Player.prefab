@@ -100,7 +100,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8b983a3c2f7ed36449e40b917770cad3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 20
+  capsuleMoveSpeed: 10
+  moveAtXSecs: 0
+  timerTXT: {fileID: 0}
+  timerCanv: {fileID: 0}
 --- !u!95 &1572578280587692694
 Animator:
   serializedVersion: 5
