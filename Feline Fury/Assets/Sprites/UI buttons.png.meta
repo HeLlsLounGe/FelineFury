@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 928b03827ac25ea45bcba1ebe06db987
+guid: d5a79f16bd789e24fad2e0d73ef460c7
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -123,13 +123,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Start and bg2_0
+      name: UI buttons_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 1500
-        width: 800
-        height: 500
+        y: 90
+        width: 160
+        height: 45
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -137,41 +137,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c0ba22c5d7dd2ba40b1cff74f84a68cb
-      internalID: 1163829686
+      spriteID: da7438c40d5d9064d948a9013a8a1cfe
+      internalID: 1026706779
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Start and bg2_1
-      rect:
-        serializedVersion: 2
-        x: 800
-        y: 1500
-        width: 800
-        height: 500
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7ed7f12831b408d43ac2065f1cad13c1
-      internalID: -1462671890
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Start and bg2_2
+      name: UI buttons_1
       rect:
         serializedVersion: 2
         x: 0
-        y: 1000
-        width: 800
-        height: 500
+        y: 45
+        width: 160
+        height: 45
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -179,83 +158,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9d554fb1f2a114c46825d8c9b5d5d088
-      internalID: 286303887
+      spriteID: 443843596e938154da2f9050a0257d0f
+      internalID: 404203409
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Start and bg2_3
-      rect:
-        serializedVersion: 2
-        x: 800
-        y: 1000
-        width: 800
-        height: 500
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: cfea6222003b3114d9c9575069f911d8
-      internalID: -215708197
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Start and bg2_4
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 500
-        width: 800
-        height: 500
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 91ec28afdc9ac3b4d81ed203c91c8d18
-      internalID: 415518397
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Start and bg2_5
-      rect:
-        serializedVersion: 2
-        x: 800
-        y: 500
-        width: 800
-        height: 500
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e35f8e3666f3eb24080dc92feea1775d
-      internalID: -1552440274
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Start and bg2_6
+      name: UI buttons_2
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 800
-        height: 500
+        width: 160
+        height: 45
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -263,29 +179,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9ac44a02e1cacfc4caf36e9eb20ea2f4
-      internalID: -1604438804
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Start and bg2_7
-      rect:
-        serializedVersion: 2
-        x: 800
-        y: 0
-        width: 800
-        height: 500
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 42e79d662fde120498c6c7d4928de947
-      internalID: 489207186
+      spriteID: 33bd95f5bd78fd740b4b7e8488afc75f
+      internalID: 423998580
       vertices: []
       indices: 
       edges: []
@@ -301,14 +196,9 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Start and bg2_0: 1163829686
-      Start and bg2_1: -1462671890
-      Start and bg2_2: 286303887
-      Start and bg2_3: -215708197
-      Start and bg2_4: 415518397
-      Start and bg2_5: -1552440274
-      Start and bg2_6: -1604438804
-      Start and bg2_7: 489207186
+      UI buttons_0: 1026706779
+      UI buttons_1: 404203409
+      UI buttons_2: 423998580
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

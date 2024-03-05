@@ -6,16 +6,17 @@ TagManager:
   tags:
   - Hit
   - Exit
+  - Rev
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Obstacles
   - Water
   - UI
-  - 
-  - 
-  - 
+  - Walls
+  - Bounce
+  - Player
   - 
   - 
   - 

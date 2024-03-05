@@ -26,7 +26,7 @@ public class PlayerControl : MonoBehaviour
     }
     void Update()
     {
-        Debug.Log(movetimer);
+        //Debug.Log(movetimer);
         if (moveAllow)
         {
             mousePosition = Input.mousePosition;
@@ -44,7 +44,6 @@ public class PlayerControl : MonoBehaviour
             {
                 moveAllow = true;
                 timerCanv.enabled = false;
-                Debug.Log("sadklf");
                 movetimer = 4;
             }
             else

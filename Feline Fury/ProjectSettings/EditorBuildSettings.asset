@@ -6,6 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/MainMenu.unity
+    guid: 3b1aaef6af1f8de4aa71ffbeef7afd60
+  - enabled: 1
     path: Assets/Scenes/Lv1.unity
     guid: 178b967c5ac85bf4fa4c7f71633c9c98
   - enabled: 1
@@ -14,4 +17,34 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Lv3.unity
     guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/Lv4.unity
+    guid: b58a748cf366ebc4c945c273fcced641
+  - enabled: 1
+    path: Assets/Scenes/Lv5.unity
+    guid: 5a6d85fb741b843438eae1dd4a86bdd8
+  - enabled: 1
+    path: Assets/Scenes/Lv6.unity
+    guid: 83a55356c55bc40438644a2d34135363
+  - enabled: 1
+    path: Assets/Scenes/Lv7.unity
+    guid: 6fd00f1256854f349bf63b81a3905cee
+  - enabled: 1
+    path: Assets/Scenes/Lv8.unity
+    guid: 07fde24da5159b44ca0eaa8cf36e24ec
+  - enabled: 1
+    path: Assets/Scenes/Lv9.unity
+    guid: fb50463565f9e7940a2cc79728508ae0
+  - enabled: 1
+    path: Assets/Scenes/Lv10.unity
+    guid: 63705ed10a3b97b4b99f6693f8b0f8a1
+  - enabled: 1
+    path: Assets/Scenes/Lv11.unity
+    guid: a4dc730924ef0d446a9f2a007d7daea4
+  - enabled: 1
+    path: Assets/Scenes/HELL.unity
+    guid: 137d8be0068662c4185aa9539e913465
+  - enabled: 1
+    path: Assets/Scenes/Tfp.unity
+    guid: 83cc0d8a8c0630948a368880453a7f50
   m_configObjects: {}

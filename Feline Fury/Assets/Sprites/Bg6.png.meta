@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 928b03827ac25ea45bcba1ebe06db987
+guid: bb98ecd3d44c2494aa4ebe00d8fdb774
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -123,13 +123,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Start and bg2_0
+      name: Bg6_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 1500
-        width: 800
-        height: 500
+        y: 270
+        width: 160
+        height: 90
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -137,20 +137,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c0ba22c5d7dd2ba40b1cff74f84a68cb
-      internalID: 1163829686
+      spriteID: 3e9e2d255deaf4e4aa85ec51d822cc2c
+      internalID: 1555590797
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Start and bg2_1
+      name: Bg6_1
       rect:
         serializedVersion: 2
-        x: 800
-        y: 1500
-        width: 800
-        height: 500
+        x: 160
+        y: 270
+        width: 160
+        height: 90
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -158,62 +158,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7ed7f12831b408d43ac2065f1cad13c1
-      internalID: -1462671890
+      spriteID: a954fb7ee608a5a418bfc7b742f38b13
+      internalID: -865725939
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Start and bg2_2
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 1000
-        width: 800
-        height: 500
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9d554fb1f2a114c46825d8c9b5d5d088
-      internalID: 286303887
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Start and bg2_3
-      rect:
-        serializedVersion: 2
-        x: 800
-        y: 1000
-        width: 800
-        height: 500
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: cfea6222003b3114d9c9575069f911d8
-      internalID: -215708197
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Start and bg2_4
+      name: Bg6_2
       rect:
         serializedVersion: 2
         x: 0
-        y: 500
-        width: 800
-        height: 500
+        y: 180
+        width: 160
+        height: 90
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -221,20 +179,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 91ec28afdc9ac3b4d81ed203c91c8d18
-      internalID: 415518397
+      spriteID: 0377e8dc0c6ee424d8b61681db34dfc0
+      internalID: 1697570404
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Start and bg2_5
+      name: Bg6_3
       rect:
         serializedVersion: 2
-        x: 800
-        y: 500
-        width: 800
-        height: 500
+        x: 160
+        y: 180
+        width: 160
+        height: 90
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -242,20 +200,62 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e35f8e3666f3eb24080dc92feea1775d
-      internalID: -1552440274
+      spriteID: 213582bf5034ae644823f4eadc766602
+      internalID: -371232074
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Start and bg2_6
+      name: Bg6_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 90
+        width: 160
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83f12ff2d7b16ff48aa8dd7621f35666
+      internalID: 610101031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bg6_5
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 90
+        width: 160
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a87853c75dc85aa43b3c1e07005a0674
+      internalID: -1173189896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bg6_6
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 800
-        height: 500
+        width: 160
+        height: 90
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -263,29 +263,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9ac44a02e1cacfc4caf36e9eb20ea2f4
-      internalID: -1604438804
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Start and bg2_7
-      rect:
-        serializedVersion: 2
-        x: 800
-        y: 0
-        width: 800
-        height: 500
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 42e79d662fde120498c6c7d4928de947
-      internalID: 489207186
+      spriteID: c2e2c1925d8467b4b9f9a1eacdc75d14
+      internalID: 676407210
       vertices: []
       indices: 
       edges: []
@@ -301,14 +280,13 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Start and bg2_0: 1163829686
-      Start and bg2_1: -1462671890
-      Start and bg2_2: 286303887
-      Start and bg2_3: -215708197
-      Start and bg2_4: 415518397
-      Start and bg2_5: -1552440274
-      Start and bg2_6: -1604438804
-      Start and bg2_7: 489207186
+      Bg6_0: 1555590797
+      Bg6_1: -865725939
+      Bg6_2: 1697570404
+      Bg6_3: -371232074
+      Bg6_4: 610101031
+      Bg6_5: -1173189896
+      Bg6_6: 676407210
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
